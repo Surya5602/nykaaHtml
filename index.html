@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      
+       .nav-link1{
+        text-decoration: none;
+        border: none;
+        outline: none;
+        color:black;
+      }
+      .nav-link1:hover{
+        color:rgb(244, 78, 120);
+       
+      }
+      
+      .nav-link{
+        border: none;
+        outline: none;
+        color: grey;
+      }
+     
+      .nav-link:hover{
+        color:rgb(244, 78, 120);
+        height: 2rem;
+        border-bottom: 2px solid rgb(244, 78, 120);
+      }
+      .nav-link2{
+        border: none;
+        outline: none;
+        color: grey;
+        background-color: white;
+        padding: 0 1rem;
+      }
+       
+     
+    </style>
+    <script
+      src="https://kit.fontawesome.com/d3fb76b9b7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>NYKAA DEMO PAGE</title>
+  </head>
+  <body>
+    <nav
+      class="navbar top-bar navbar-light bg-light sticky-top p-0 nav"
+      style="border-bottom: 0.2px ridge lightgrey"
+    >
+      <div
+        class="container-fluid d-flex marquee justify-content-around"
+        style="background-color:rgb(246,144,187);"
+      >
+        <div class="align-self-start " >
+          <marquee direction="up" scrolldelay="120" height="30">
+            BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals
+          </marquee>
+        </div>
+        <div class="icons d-flex">
+          <a href="#" class="border-right" style="display: flex">
+            <img src="Assets/img/icons8-iphone-x-50.png" alt="" style="width: 30px; padding: 3px ;"></i>Get App
+          </a>
+          <a href="#" class="border-right" style="display: flex">
+            <img src="Assets/img/icons8-location-50.png" alt="" style="width: 30px; padding: 3px ;">Store & Events</a
+          >
+          <a href="#" class="border-right" style="display: flex">
+            <img src="Assets/img/icons8-gift-card-50.png" alt="" style="width: 32px; padding: 3px ;">Gift card</a
+          >
+          <a href="#" class="help" style="display: flex">
+            <img src="Assets/img/icons8-help-24.png" alt="" style="width: 32px; padding: 3px ;">Help
+          </a>
+        </div>
+      </div>
+      <div class="container d-flex nav1">
+        <a class="navbar-brand sticky-top" href="#">
+          <img
+            src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png"
+            alt=""
+            width="90"
+            height="30"
+          />
+          <a class="nav-link1"  href="#">Categories</a>
+          <div class="dropdown">
+            <button class="dropbtn first">Brands</button>
+            <button class="dropbtn second">Luxe</button>
+            <button class="dropbtn third">Nykka Fashion</button>
+            <button class="dropbtn fourth">Beauty advice</button>
+            <div class="dropdown-content "  id="nav-output">
+              <div class="beautyAdvice ">
+              <div id="element-1">  
+                
+              </div>
+              <div id="element-2"></div>
+              <div id="element-3"></div>
+            </div>
+            </div>
+          </div>
+        </a>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search on nykka"
+            aria-label="Search"
+          />
+        </form>
+        <div><i class="fa fa-user"> Account</i></div>
+        <i class="fa fa-shopping-bag" style="font-size: 24px"></i>
+      </div>
+    </nav>
+    <nav
+      class="nav bar1 shadow-sm p-3 mb-3 bg-body rounded"
+      style="border-bottom: 0.2px ridge lightgrey; "
+    >
+      <div class="container c d-flex">
+        <div class="dropDowntags">
+        <div class="dropdown ">
+          <button class="dropbtn one " >Makeup</button>
+          <button class="dropbtn two">Skin</button>
+          <button class="dropbtn three">Hair</button>
+          <button class="dropbtn four">Appliance</button>
+          <button class="dropbtn five">Bath & Body</button>
+          <button class="dropbtn six" >Natural</button>
+          <button class="dropbtn seven">Mom & Baby</button>
+          <button class="dropbtn  eight">Health & Wellness</button>
+          <button class="dropbtn nine">Men</button>
+          <button class="dropbtn ten">Fragrance</button>
+          <button class="dropbtn eleven">Pop Ups</button>
+        
+          <div class="dropdown-content">
+            <div class="secondDropdown d-flex">
+              <div id="content1">    
+              </div>
+              <div id="content2"></div>
+              <div id="content3"></div>
+              <div id="content4"></div>
+              <div id="content5"></div>
+              <div id="content6"></div>              
+          </div>
+          </div>
+         
+          </div>
+          <button class="hero">SALE</button>
+          </div>
+          </div>
+
+    </nav>
+
+    <div class="content-box  shadow-sm" >
+      <div class="container d-flex" style="border-bottom: 0.2px ridge lightgrey;">
+        <div class="left">
+          <div class="top">
+            <h1><i class="bx bx-heart"></i></h1>
+          </div>
+          <div class="Items">
+            <div class="scroll">
+              <div class="image-slider">
+                <div class="image1">
+                  <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" />
+                </div>
+                <div class="image2">
+                  <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_4.jpg" class="img" alt="" />
+                </div>
+                <div class="image3"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_5.jpg" class="img" alt="" /></div>
+                <div class="image4"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_6.jpg" class="img" alt="" /></div>
+                <div class="image5"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_7.jpg" class="img" alt="" /></div>
+                <div class="image6">
+                  <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" />
+                </div>
+                <div class="image">
+                  <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" />
+                </div>
+                <div class="image"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" /></div>
+                <div class="image"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" /></div>
+                <div class="image"><img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" /></div>
+              </div>
+            </div>
+            <div class="scroll-image">
+              <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" class="img" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="details">
+            <p class="title" style="font-style: sans-serif;">
+              Smashbox Always On Mini Matte Lipstick Duo - Driver's Seat &
+              Disorderly
+            </p>
+            <p>(2 pieces)</p>
+            <div class="reviews">
+              <p class="border-right">
+                <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                ><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i><span>4.6/5</span>
+              </p>
+              <p class="border-right">164 ratings & 25 reviews</p>
+              <p>Q&As</p>
+            </div>
+            <p class="price">
+              MRP: <span id="mrp">₹1090</span><br />
+              inclusive of all taxes.
+            </p>
+            <div class="offers">
+              <div class="show">
+                <ul>
+                  <li>
+                    Buy 1 Pick 1: Buy 1 full size product worth Rs. 2100+ and
+                    pick 1 full size Lipsitck (worth Rs.2100)! Also get a Makeup
+                    Pouch & Bestselling Primer Sample. Offer Applicable on Minis
+                    worth Rs.2100 too!
+                  </li>
+                </ul>
+              </div>
+              <div id="hide" class="hidden">
+                <ul>
+                  <li>
+                    On Rs.3500: Get 3 Free Gifts - Choose between a Full Size
+                    Lipstick (worth Rs.2100) or an Eye Shadow Palette (worth
+                    Rs.3080), Pouch & Primer (1.5ml)!
+                  </li>
+                </ul>
+              </div>
+              <button id="view-offers">view more offers</button>
+            </div>
+          </div>
+          <div class="purchase">
+            <div class="btn border-right d-flex">
+              <div class="btn-click">Add To Bag</div>
+            </div>
+            <div class="address">
+              <img src="Assets/img/icons8-location-50.png" alt="" style="width: 30px; padding: 5px ;"><span>Deliver Options</span><br />
+              <div>
+                <form class="form-page d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Enter pincode"
+                    aria-label="Search"
+                  />
+                  <button class="checking">Check</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="testimony d-flex">
+            <div
+              class="description d-flex border-right"
+              type="button"
+              class="btn btn-secondary"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="100% Authentic, directly purchased from Smashbox."
+            >
+              100% Genuine Products
+            </div>
+            <div
+              class="description d-flex border-right"
+              type="button"
+              class="btn btn-secondary"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Return is only accepted for unused and damaged product while shipping."
+            >
+              Easy Return Policy
+            </div>
+            <div class="description3">Sold by :NYKAA E RETAIL</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title250 container">
+    <h5>Product Description</h5>
+  </div>
+    <div class="product d-flex" >
+      <div class="description4 " style="box-shadow:2px ;">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link2 active"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+
+            >
+            Description
+            </button>
+            <button
+              class="nav-link2"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+            Ingredients
+            </button>
+            <button
+              class="nav-link2"
+              id="nav-contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-contact"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+            How To Use
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content content-size" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <div class="content">
+              <div class="show">
+              <p>
+                Smashbox Always On Mini Matte Lipstick duo is a lipstick kit
+                with two mini matte liquid lipsticks that lasts 8 hours, are
+                waterproof and infused with primer oil for comfort.
+              </p>
+              <h6>The set contents:</h6>
+              <p>
+                - 1 x Mini Always On Matte Liquid Lipstick in Driver's Seat
+                (0.03 fl oz/0.9ml) <br />
+                - 1 x Mini Always On Matte Liquid Lipstick in Disorderly (0.03
+                fl oz/0.9ml)
+              </p>
+              <h6>Features:</h6>
+              
+              <p>
+                - Infused with Primer Oil Complex for added comfort (a blend of
+                jojoba, apricot and sunflower oils) <br />
+                - Waterproof, long-wearing formula that lasts up to 8 hours
+                </p>
+                
+              </div>
+              <div class="hide">
+                <p>
+                <br />
+                - Delivers bold, lightweight color with a velvety matte finish
+                <br />
+                - Non-drying; won’t feather, bleed or fade <br />
+                - Precision tip applicator lines and fills <br />
+                - Cruelty-free <br />
+              </p>
+              <h6>Expiry Date: 15 October 2024</h6>
+              <h6>Country of Origin:<span class="light">Belgium</span>></h6>
+              <h6>
+                Manufacturer: <span>ELCA Cosmetics Pvt. Ltd</span>
+                <br />Address:
+                <span
+                  >202-206 Tolstoy House,15 Tolstoy Marg, New Delhi 110001,
+                  India.</span
+                >
+              </h6>
+            </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+          <div class="show">
+          <p>Isododecane, Dimethicone, Trimethylsiloxysilicate, Polybutene, Petrolatum, Cyclohexasiloxane, Kaolin, Disteardimonium Hectorite, Beeswax\\Cera Alba\\Cire d'Abeille, Silica Dimethyl Silylate, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Prunus Armeniaca (Apricot) Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Chamomilla Recutita (Matricaria) Flower Oil, Glyceryl Behenate/Eicosadioate, Cyclopentasiloxane, Propylene Carbonate, Caprylyl Glycol, Hexylene Glycol, Flavor (Aroma), Vanillin, Phenoxyethanol, [+/- Mica, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491), Iron Oxides (CI 77492), Iron Oxides (CI 77499), Blue 1 Lake (CI 42090), Carmine (CI 75470), Red 6 (CI 15850), Red 28 (CI 45410), Red 30 (CI 73360), Red 7 Lake (CI 15850), Red 22 Lake (CI 45380), Red 28 Lake (CI 45410), Red 30 Lake (CI 73360), Red 33 Lake (CI 17200), Yellow 5 Lake (CI 19140), Yellow 6 Lake (CI 15985)]</p>
+        </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-contact"
+            role="tabpanel"
+            aria-labelledby="nav-contact-tab"
+          >
+          <div class="show">
+          <p>
+            - Define lip with easy-to-use precision tip. <br>
+          - Use the flat side to fill in with color. <br>
+          - Allow to dry. <br>
+          - Layer with a lighter hue in center to make lips look fuller. <br>
+          - When you're ready to remove, wipe off with oil-based remover. <br>
+          
+           <h6>Studio tip:</h6>  Layer with a lighter hue in center to make lips appear fuller. <br>
+          <h6>Use it with:</h6>
+          
+          
+          - Always On Cream To Matte Lipstick <br>
+          </p>
+        </div>
+        <div class="hide">
+          <p>
+          - Gloss Angeles Lip Gloss <br>
+          
+          </p>
+        </div>
+          
+          </div>
+        </div>
+        <div class="show d-flex">
+          <button id="read-more">Read More</button>
+        </div>
+      </div>
+
+        <div class="right-side" style="width:25%;" >
+          <div class="Sticky-image" >
+            <img src="https://images-static.nykaa.com/media/catalog/product/9/0/90416aeSMASH00000156_0.jpg" alt="" >   
+          </div>
+         
+          <div class="Stick-image-details " >
+            <p>Smashbox Always On Mini Matte Lipstick Duo -</p>
+             <p style="font-weight:600; font-size:1rem;"> <span style="color: grey;">MRP :</span>
+               Rs:1090</p>
+              </div>
+         
+          <div class="button56" >
+            <button style="width:65%; padding:1rem ; border: none; outline: none; background-color:  rgb(244, 78, 120); color:white">Add To Cart</button>
+          </div>
+    </div>
+    </div>
+    <div class="show1 " style=" padding-left:100px; padding-right: 500px;" >
+      <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam tempore beatae architecto quos optio voluptas repudiandae pariatur illum, nam officia quibusdam iure mollitia asperiores in eveniet quam perspiciatis deleniti libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam nam minus, saepe laboriosam nemo assumenda quisquam eius obcaecati animi vitae officiis earum odio ipsa architecto officia. Quidem, consequuntur temporibus!Loremlorem
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, aperiam laboriosam fugit molestias numquam pariatur, temporibus iure laborum ullam qui quas magnam dolor, corporis dolorum tempora voluptate exercitationem est asperiores.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam tempore beatae architecto quos optio voluptas repudiandae pariatur illum, nam officia quibusdam iure mollitia asperiores in eveniet quam perspiciatis deleniti libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam nam minus, saepe laboriosam nemo assumenda quisquam eius obcaecati animi vitae officiis earum odio ipsa architecto officia. Quidem, consequuntur temporibus!Loremlorem
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, aperiam laboriosam fugit molestias numquam pariatur, temporibus iure laborum ullam qui quas magnam dolor, corporis dolorum tempora voluptate exercitationem est asperiores.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam tempore beatae architecto quos optio voluptas repudiandae pariatur illum, nam officia quibusdam iure mollitia asperiores in eveniet quam perspiciatis deleniti libero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam nam minus, saepe laboriosam nemo assumenda quisquam eius obcaecati animi vitae officiis earum odio ipsa architecto officia. Quidem, consequuntur temporibus!Loremlorem
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, aperiam laboriosam fugit molestias numquam pariatur, temporibus iure laborum ullam qui quas magnam dolor, corporis dolorum tempora voluptate exercitationem est asperiores.
+    </p>
+    </div>
+
+    <script src="Assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
